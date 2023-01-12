@@ -12,7 +12,7 @@ const BoxCode = () => {
         variant="light"
         code={code}
         id="code-box-dark"
-        style={{marginTop:'200px'}}
+        style={{marginTop:'50px'}}
       />
     </div>
   );
