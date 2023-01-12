@@ -1,0 +1,35 @@
+{
+  "comparador_de_tecnologías_similares": {
+    "comparador_global": {
+      "#": {
+        "nombre": "lenguajes_de_programacion",
+        "lista": {
+          "#": {
+            "titulo": "if"
+          }
+        }
+      }
+    },
+    "registros": {
+      "#": {
+        "titulo": "lenguaje nombre",
+        "contenido": {
+          "#": {
+            "tipo": "global o propio",
+            "nivel": "1.1.1",
+            "titulo_propio": "foreach",
+            "descripción": "",
+            "codigo": "",
+            "adicionales": {
+              "#": {
+                "titulo": "forunico",
+                "descripción": "",
+                "codigo": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
