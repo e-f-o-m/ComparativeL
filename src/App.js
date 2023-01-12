@@ -1,16 +1,17 @@
-//import logo from './logo.svg';
 import './App.css';
-import { Btn } from './components/Btn';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Index from './pages';
+import Home from './pages/home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Title
-      </header>
-      <div className='container'>
-        <Btn />
-      </div>
+      <Router>
+        <Routes>
+          <Route index path="/" element={<Index />} />
+          <Route exact path="/home" element={<Home />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

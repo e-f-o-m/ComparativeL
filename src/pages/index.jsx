@@ -1,9 +1,14 @@
 import React from 'react'
+import Btn from '../components/Btn'
+import Header from '../components/header'
 
-const index = () => {
+const Index = () => {
   return (
-    <div>index</div>
+    <div className='container'>
+        <Header />
+        <Btn />
+    </div>
   )
 }
 
-export default index
+export default Index

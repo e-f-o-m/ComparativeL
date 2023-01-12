@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Btn = () => {
+const Btn = () => {
   let name = "Btn Test";
   return (
       <div className="btn">
@@ -8,3 +8,5 @@ export const Btn = () => {
     </div>
   );
 };
+
+export default Btn
